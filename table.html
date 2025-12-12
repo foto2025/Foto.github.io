@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      ตารางการแข่งขัน
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    body{
+                    font-family: "Kanit", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    cursor:url("jatu.png"),auto;height:100vh;
+                    }
+      mark{background: linear-gradient(pink,blue,green,yellow,red,white,purple,yellow);color:black;}
+      button1{background: conic-gradient(pink,blue);color:black;}
+      button2{background: conic-gradient(green,yellow);color:black;}
+      button3{background: conic-gradient(red,white);color:black;}
+      button4{background: conic-gradient(purple,yellow);color:black;}
+      header{background: radial-gradient(lightpink,skyblue);padding:30px;text-align:center;border-radius:10px;}
+      section{background:linear-gradient(purple,yellow);padding:15px;margin:20px auto;width:70%;border-radius:10px;}
+      p{text-indent:2em;}
+      .zoom:hover{transform:scale(1.5);cursor:pointer;}
+      img:hover{animation:glowcolors 1.2s infinite alternate;}
+      @keyframes glowcolors{
+                            0%{box-shadow:0 0 20px pink;}
+                            25%{box-shadow:0 0 20px skyblue;}
+                            50%{box-shadow:0 0 20px green;}
+                            75%{box-shadow:0 0 20px yellow;}
+                            100%{box-shadow:0 0 20px gold;}
+                           }
+      .blink-bg{
+                animation: blinkbg 1s infinite alternate;
+                padding:3px 6px;
+               }
+      @keyframes blinkbg{
+                         0%{background: pink;}
+                         100%{background: skyblue;}
+                        }
+    </style>
+  </head>
+  <body background="https://cdn.pixabay.com/photo/2013/07/13/10/51/football-157931_960_720.png">
+    <header>
+      <h1><marquee><mark>ยินดีต้อนรับสู่เว็บไซต์ของงานจตุรมิตร 4 โรงเรียน   ส.ก.   ท.ศ.   อ.ส.ช.   ก.ท.</mark></marquee></h1>
+      <br>
+      <h1><mark>เข้าสู่เว็บไซต์โรงเรียน</mark></h1>
+      <h2>
+        <button1 onclick="document.location='http://www.sk.ac.th/'">โรงเรียนสวนกุหลาบวิทยาลัย</button1>
+        &nbsp;&nbsp;&nbsp;
+        <button2 onclick="document.location='https://www.debsirin.ac.th/'">โรงเรียนเทพศิรินทร์</button2>
+        &nbsp;&nbsp;&nbsp;
+        <button3 onclick="document.location='https://www.assumption.ac.th/'">โรงเรียนอัสสัมชัญ</button3>
+        &nbsp;&nbsp;&nbsp;
+        <button4 onclick="document.location='https://www.bcc.ac.th/2019/'">โรงเรียนกรุงเทพคริสเตียน</button4>
+      </h2>
+    </header>
+    <br><br>
+    <div id="menu" style="background:linear-gradient(pink,blue,green,yellow,red,white,purple,yellow);height:350px;width:200px;float:left;">
+      <b>สารบัญ</b><br><br>
+      บทนำ<br><br>
+      ประวัติ<br><br>
+      การแข่งขัน<br><br>
+      อันดับแชมป์<br><br>
+      จตุรมิตรสามัคคีอาวุโส<br><br>
+      ประเพณีชาวจตุรมิตร<br><br>
+      ผู้จัดทำ
+    </div>
+    <section>
+      <center>
+        <h1><mark>ผลการแข่งขันจตุรมิตรสามัคคี</mark></h1>
+      </center>
+      <br>
+      <p><span class="blink-bg">การแข่งขันฟุตบอลประเพณีจตุรมิตรสามัคคีมีขึ้นในปี พ.ศ. 2507 เป็นปีแรก โดยลำดับการแข่งขันและการเป็นเจ้าภาพ ดังนี้</span></p>
+      <br><br>
+      
+    </section>
+  </body>
+</html>
